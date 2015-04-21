@@ -1,0 +1,88 @@
+ Data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Tidy Mean
+A data.table named tidy_mean_data is set with the following columns. All units are maintained from the original data set.
+A file named tidy_mean_data.txt is written from run_analysis.R.
+
+column	                  description	                                              type
+Subject	            Identifier of the subject	                                    integer
+Activity	          Label of the activity         	                               factor
+MeanSamples	        Mean of variables by Subject + Activity provided in tidy	    numeric
+
+Tidy
+A data.table named tidy_data is set with the following columns. 
+All units are maintained from the original data set. A file named tidy_data.txt is written from run_analysis.R.
+
+Column	                                                                           Original Name
+Activity	
+Subject	
+Time_BodyAcc_Mean_X                                                               	tBodyAcc-mean()-X
+Time_BodyAcc_Mean_Y                                                               	tBodyAcc-mean()-Y
+Time_BodyAcc_Mean_Z	                                                                tBodyAcc-mean()-Z
+Time_BodyAcc_Std_X                                                                	tBodyAcc-std()-X
+Time_BodyAcc_Std_Y	                                                                tBodyAcc-std()-Y
+Time_BodyAcc_Std_Z                                                                	tBodyAcc-std()-Z
+Time_GravityAcc_Mean_X                                                            	tGravityAcc-mean()-X
+Time_GravityAcc_Mean_Y                                                            	tGravityAcc-mean()-Y
+Time_GravityAcc_Mean_Z                                                              tGravityAcc-mean()-Z
+Time_GravityAcc_Std_X	                                                              tGravityAcc-std()-X
+Time_GravityAcc_Std_Y	                                                              tGravityAcc-std()-Y
+Time_GravityAcc_Std_Z	                                                              tGravityAcc-std()-Z
+Time_BodyAccJerk_Mean_X	                                                            tBodyAccJerk-mean()-X
+Time_BodyAccJerk_Mean_Y                                                           	tBodyAccJerk-mean()-Y
+Time_BodyAccJerk_Mean_Z	                                                            tBodyAccJerk-mean()-Z
+Time_BodyAccJerk_Std_X	                                                            tBodyAccJerk-std()-X
+Time_BodyAccJerk_Std_Y                                                            	tBodyAccJerk-std()-Y
+Time_BodyAccJerk_Std_Z                                                            	tBodyAccJerk-std()-Z
+Time_BodyGyro_Mean_X	                                                              tBodyGyro-mean()-X
+Time_BodyGyro_Mean_Y                                                              	tBodyGyro-mean()-Y
+Time_BodyGyro_Mean_Z	                                                              tBodyGyro-mean()-Z
+Time_BodyGyro_Std_X                                                                	tBodyGyro-std()-X
+Time_BodyGyro_Std_Y	                                                                tBodyGyro-std()-Y
+Time_BodyGyro_Std_Z	                                                                tBodyGyro-std()-Z
+Time_BodyGyroJerk_Mean_X                                                          	tBodyGyroJerk-mean()-X
+Time_BodyGyroJerk_Mean_Y                                                          	tBodyGyroJerk-mean()-Y
+Time_BodyGyroJerk_Mean_Z                                                          	tBodyGyroJerk-mean()-Z
+Time_BodyGyroJerk_Std_X	                                                            tBodyGyroJerk-std()-X
+Time_BodyGyroJerk_Std_Y                                                           	tBodyGyroJerk-std()-Y
+Time_BodyGyroJerk_Std_Z                                                           	tBodyGyroJerk-std()-Z
+Time_BodyAccMag_Mean                                                              	tBodyAccMag-mean()
+Time_BodyAccMag_Std                                                               	tBodyAccMag-std()
+Time_GravityAccMag_Mean	                                                            tGravityAccMag-mean()
+Time_GravityAccMag_Std	                                                            tGravityAccMag-std()
+Time_BodyAccJerkMag_Mean                                                          	tBodyAccJerkMag-mean()
+Time_BodyAccJerkMag_Std                                                           	tBodyAccJerkMag-std()
+Time_BodyGyroMag_Mean	                                                              tBodyGyroMag-mean()
+Time_BodyGyroMag_Std                                                              	tBodyGyroMag-std()
+Time_BodyGyroJerkMag_Mean	                                                          tBodyGyroJerkMag-mean()
+Time_BodyGyroJerkMag_Std	                                                          tBodyGyroJerkMag-std()
+FFT_BodyAcc_Mean_X	                                                                fBodyAcc-mean()-X
+FFT_BodyAcc_Mean_Y	                                                                fBodyAcc-mean()-Y
+FFT_BodyAcc_Mean_Z	                                                                fBodyAcc-mean()-Z
+FFT_BodyAcc_Std_X	                                                                  fBodyAcc-std()-X
+FFT_BodyAcc_Std_Y	                                                                  fBodyAcc-std()-Y
+FFT_BodyAcc_Std_Z	                                                                  fBodyAcc-std()-Z
+FFT_BodyAccJerk_Mean_X	                                                            fBodyAccJerk-mean()-X
+FFT_BodyAccJerk_Mean_Y	                                                            fBodyAccJerk-mean()-Y
+FFT_BodyAccJerk_Mean_Z	                                                            fBodyAccJerk-mean()-Z
+FFT_BodyAccJerk_Std_X	                                                              fBodyAccJerk-std()-X
+FFT_BodyAccJerk_Std_Y	                                                              fBodyAccJerk-std()-Y
+FFT_BodyAccJerk_Std_Z	                                                              fBodyAccJerk-std()-Z
+FFT_BodyGyro_Mean_X	                                                                fBodyGyro-mean()-X
+FFT_BodyGyro_Mean_Y	                                                                fBodyGyro-mean()-Y
+FFT_BodyGyro_Mean_Z	                                                                fBodyGyro-mean()-Z
+FFT_BodyGyro_Std_X	                                                                fBodyGyro-std()-X
+FFT_BodyGyro_Std_Y                                                                	fBodyGyro-std()-Y
+FFT_BodyGyro_Std_Z	                                                                fBodyGyro-std()-Z
+FFT_BodyAccMag_Mean	                                                                fBodyAccMag-mean()
+FFT_BodyAccMag_Std	                                                                fBodyAccMag-std()
+FFT_BodyBodyAccJerkMag_Mean	                                                        fBodyBodyAccJerkMag-mean()
+FFT_BodyBodyAccJerkMag_Std	                                                        fBodyBodyAccJerkMag-std()
+FFT_BodyBodyGyroMag_Mean	                                                          fBodyBodyGyroMag-mean()
+FFT_BodyBodyGyroMag_Std	                                                            fBodyBodyGyroMag-std()
+FFT_BodyBodyGyroJerkMag_Mean	                                                      fBodyBodyGyroJerkMag-mean()
+FFT_BodyBodyGyroJerkMag_Std	                                                        fBodyBodyGyroJerkMag-std()
+
+
